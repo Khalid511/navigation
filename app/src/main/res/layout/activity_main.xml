@@ -26,16 +26,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-<<<<<<< HEAD
+
             <fragment
                 android:id="@+id/myNavHostFragment"
                 android:name="androidx.navigation.fragment.NavHostFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:defaultNavHost="true"
-<<<<<<< HEAD
+
                 app:navGraph="@navigation/navigation" />
-=======
                 <fragment
                     android:id="@+id/titleFragment"
                         android:name="com.example.android.navigation.TitleFragment"
@@ -46,10 +45,7 @@
                      Use @+id/titleFragment for the android:id
                      Use com.example.android.navigation.TitleFragment for the android:name
                      Use match_parent for the layout_height and layout_width -->
->>>>>>> Step.01-Exercise-Creating-and-Adding-a-Fragment
-=======
-                app:navGraph="@navigation/navigation"/>
->>>>>>> Step.02-Exercise-Lets-Navigate-Already
+
         </LinearLayout>
 
         <com.google.android.material.navigation.NavigationView

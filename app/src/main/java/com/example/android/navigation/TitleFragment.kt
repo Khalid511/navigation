@@ -31,7 +31,7 @@ class TitleFragment : Fragment() {
                 inflater, R.layout.fragment_title, container, false)
         // TODO (09) Call binding.playButton.setOnClickListener and navigate to the gameFragment
         binding.playButton.setOnClickListener(
-                Navigation.createNavigateOnClickListener(R.id.action_titleFragment3_to_gameFragment2)
+                Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_gameFragment)
         )
 
         // Use Navigation.createNavigateOnClickListener with
