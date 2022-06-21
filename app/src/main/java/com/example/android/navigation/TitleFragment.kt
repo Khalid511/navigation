@@ -22,6 +22,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
 import com.example.android.navigation.databinding.FragmentTitleBinding
 
 class TitleFragment : Fragment() {
@@ -30,6 +31,10 @@ class TitleFragment : Fragment() {
         val binding: FragmentTitleBinding = DataBindingUtil.inflate(
                 inflater, R.layout.fragment_title, container, false)
         // TODO (09) Call binding.playButton.setOnClickListener and navigate to the gameFragment
+        binding.playButton.setOnClickListener(
+                Navigation.createNavigateOnClickListener(R.id.action_titleFragment3_to_gameFragment2)
+        )
+
         // Use Navigation.createNavigateOnClickListener with
         // R.id.action_titleFragment_to_gameFragment
         return binding.root
