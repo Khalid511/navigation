@@ -31,10 +31,14 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:4.0.1'
 <<<<<<< HEAD
+<<<<<<< HEAD
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$version_kotlin"
 =======
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
 >>>>>>> Step.01-Exercise-Creating-and-Adding-a-Fragment
+=======
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$version_kotlin"
+>>>>>>> Step.02-Exercise-Lets-Navigate-Already
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$version_navigation"
 
         // NOTE: Do not place your application dependencies here; they belong

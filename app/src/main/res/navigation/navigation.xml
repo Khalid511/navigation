@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <!--
   ~ Copyright 2018, The Android Open Source Project
   ~
@@ -102,4 +103,26 @@
         android:name="com.example.android.navigation.AboutFragment"
         android:label="@string/title_about_trivia"
         tools:layout="@layout/fragment_about" />
+=======
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment3">
+
+    <fragment
+        android:id="@+id/titleFragment3"
+        android:name="com.example.android.navigation.TitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment3_to_gameFragment2"
+            app:destination="@id/gameFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment2"
+        android:name="com.example.android.navigation.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
+>>>>>>> Step.02-Exercise-Lets-Navigate-Already
 </navigation>
